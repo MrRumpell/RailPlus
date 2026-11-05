@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "railplus:diagonal_rail",
+    "railplus:powered_diagonal_rail",
+    "railplus:y_rail",
+    "railplus:four_way_rail",
+    "railplus:rail_end"
+  ]
+}

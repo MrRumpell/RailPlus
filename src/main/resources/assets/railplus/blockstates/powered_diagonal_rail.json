@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "shape=north_east,powered=false,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered"
+    },
+    "shape=north_east,powered=false,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered"
+    },
+    "shape=north_east,powered=true,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on"
+    },
+    "shape=north_east,powered=true,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on"
+    },
+    "shape=north_west,powered=false,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 270
+    },
+    "shape=north_west,powered=false,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 270
+    },
+    "shape=north_west,powered=true,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 270
+    },
+    "shape=north_west,powered=true,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 270
+    },
+    "shape=south_east,powered=false,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 90
+    },
+    "shape=south_east,powered=false,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 90
+    },
+    "shape=south_east,powered=true,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 90
+    },
+    "shape=south_east,powered=true,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 90
+    },
+    "shape=south_west,powered=false,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 180
+    },
+    "shape=south_west,powered=false,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered",
+      "y": 180
+    },
+    "shape=south_west,powered=true,waterlogged=false": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 180
+    },
+    "shape=south_west,powered=true,waterlogged=true": {
+      "model": "railplus:block/diagonal_rail_north_east_powered_on",
+      "y": 180
+    }
+  }
+}

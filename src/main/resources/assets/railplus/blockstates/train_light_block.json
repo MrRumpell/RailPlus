@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,powered=false": {
+      "model": "railplus:block/train_light_block_north_unpowered"
+    },
+    "facing=north,powered=true": {
+      "model": "railplus:block/train_light_block_north_powered"
+    },
+    "facing=south,powered=false": {
+      "model": "railplus:block/train_light_block_south_unpowered"
+    },
+    "facing=south,powered=true": {
+      "model": "railplus:block/train_light_block_south_powered"
+    },
+    "facing=east,powered=false": {
+      "model": "railplus:block/train_light_block_east_unpowered"
+    },
+    "facing=east,powered=true": {
+      "model": "railplus:block/train_light_block_east_powered"
+    },
+    "facing=west,powered=false": {
+      "model": "railplus:block/train_light_block_west_unpowered"
+    },
+    "facing=west,powered=true": {
+      "model": "railplus:block/train_light_block_west_powered"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:rail"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "count": 3,
+    "id": "railplus:four_way_rail"
+  }
+}

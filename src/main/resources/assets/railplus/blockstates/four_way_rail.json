@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "shape=north_south,waterlogged=false": {
+      "model": "railplus:block/four_way_rail"
+    },
+    "shape=north_south,waterlogged=true": {
+      "model": "railplus:block/four_way_rail"
+    },
+    "shape=east_west,waterlogged=false": {
+      "model": "railplus:block/four_way_rail"
+    },
+    "shape=east_west,waterlogged=true": {
+      "model": "railplus:block/four_way_rail"
+    }
+  }
+}

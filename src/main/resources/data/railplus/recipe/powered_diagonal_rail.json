@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "railplus:diagonal_rail"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "G G",
+    "GDG",
+    "GRG"
+  ],
+  "result": {
+    "count": 6,
+    "id": "railplus:powered_diagonal_rail"
+  }
+}

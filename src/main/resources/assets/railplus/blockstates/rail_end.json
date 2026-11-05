@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,shape=north_south,waterlogged=false": {
+      "model": "railplus:block/rail_end",
+      "y": 180
+    },
+    "facing=north,shape=north_south,waterlogged=true": {
+      "model": "railplus:block/rail_end",
+      "y": 180
+    },
+    "facing=south,shape=north_south,waterlogged=false": {
+      "model": "railplus:block/rail_end"
+    },
+    "facing=south,shape=north_south,waterlogged=true": {
+      "model": "railplus:block/rail_end"
+    },
+    "facing=east,shape=east_west,waterlogged=false": {
+      "model": "railplus:block/rail_end",
+      "y": 270
+    },
+    "facing=east,shape=east_west,waterlogged=true": {
+      "model": "railplus:block/rail_end",
+      "y": 270
+    },
+    "facing=west,shape=east_west,waterlogged=false": {
+      "model": "railplus:block/rail_end",
+      "y": 90
+    },
+    "facing=west,shape=east_west,waterlogged=true": {
+      "model": "railplus:block/rail_end",
+      "y": 90
+    }
+  }
+}

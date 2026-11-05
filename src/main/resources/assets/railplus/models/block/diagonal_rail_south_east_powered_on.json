@@ -1,0 +1,7 @@
+{
+  "parent": "railplus:block/diagonal_rail_south_east_powered",
+  "textures": {
+    "1": "railplus:block/powered_rail_on",
+    "particle": "railplus:block/powered_rail_on"
+  }
+}

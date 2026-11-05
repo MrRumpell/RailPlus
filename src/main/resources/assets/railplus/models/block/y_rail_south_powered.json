@@ -1,0 +1,1680 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "railplus:block/rail_normal",
+    "rail_normal": "railplus:block/rail_normal",
+    "rail_junction_texture": "railplus:block/rail_junction_texture"
+  },
+  "elements": [
+    {
+      "name": "Plank1",
+      "from": [
+        9.88137,
+        0.8,
+        6.13137
+      ],
+      "to": [
+        11.88137,
+        0.8,
+        10.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            5,
+            12,
+            6
+          ],
+          "rotation": 180,
+          "texture": "#rail_normal"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            12,
+            7
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            12,
+            7
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            12,
+            5,
+            4,
+            7
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank2",
+      "from": [
+        3.88137,
+        0.8,
+        6.13137
+      ],
+      "to": [
+        5.88137,
+        0.8,
+        10.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            9,
+            12,
+            10
+          ],
+          "rotation": 180,
+          "texture": "#rail_normal"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            4,
+            9,
+            12,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "RailOuter2",
+      "from": [
+        5.69645,
+        1.1,
+        -0.79325
+      ],
+      "to": [
+        9.69645,
+        1.1,
+        0.20675
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            2,
+            15,
+            4,
+            15
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailOuter31",
+      "from": [
+        5.69645,
+        1.1,
+        -1.69325
+      ],
+      "to": [
+        8.69645,
+        1.1,
+        -0.69325
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            2,
+            15,
+            4,
+            15
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            3,
+            0,
+            4,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailOuter3",
+      "from": [
+        6.38137,
+        1.1,
+        2.47452
+      ],
+      "to": [
+        7.38137,
+        1.1,
+        9.47452
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "south": {
+          "uv": [
+            2,
+            15,
+            4,
+            15
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailOuter41",
+      "from": [
+        10.38137,
+        1.1,
+        0.13137
+      ],
+      "to": [
+        11.38137,
+        1.1,
+        4.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            2,
+            15,
+            4,
+            15
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailInner2",
+      "from": [
+        -1.78883,
+        1.1,
+        5.79203
+      ],
+      "to": [
+        2.21117,
+        1.1,
+        7.79203
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            4,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            14,
+            2,
+            12,
+            1
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            1,
+            13.6,
+            3
+          ],
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            14,
+            14,
+            16
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            12,
+            10,
+            14,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "down": {
+          "uv": [
+            12,
+            10,
+            14,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W1",
+      "from": [
+        11.88137,
+        1.1,
+        14.13137
+      ],
+      "to": [
+        13.88137,
+        1.1,
+        16.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            15,
+            14,
+            14
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W3",
+      "from": [
+        11.88137,
+        1.1,
+        2.13137
+      ],
+      "to": [
+        13.88137,
+        1.1,
+        14.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            15,
+            14,
+            14
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W5",
+      "from": [
+        1.88137,
+        1.1,
+        4.13137
+      ],
+      "to": [
+        3.88137,
+        1.1,
+        9.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            15,
+            14,
+            11
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            4,
+            14
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W4",
+      "from": [
+        11.88137,
+        1.1,
+        0.13137
+      ],
+      "to": [
+        13.88137,
+        1.1,
+        2.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            15,
+            14,
+            14
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W6",
+      "from": [
+        1.88137,
+        1.1,
+        0.13137
+      ],
+      "to": [
+        3.88137,
+        1.1,
+        2.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            4,
+            15
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            1
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            14,
+            9,
+            12,
+            10
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            9,
+            14,
+            8
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            4,
+            14
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "RailE_W2",
+      "from": [
+        1.88137,
+        1.1,
+        11.13137
+      ],
+      "to": [
+        3.88137,
+        1.1,
+        16.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            16,
+            3,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#rail_normal",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            3,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            12,
+            11,
+            14,
+            15
+          ],
+          "texture": "#rail_normal",
+          "cullface": "south"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            4,
+            14
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        }
+      }
+    },
+    {
+      "name": "Plank3",
+      "from": [
+        3.88137,
+        0.8,
+        4.13137
+      ],
+      "to": [
+        11.88137,
+        0.8,
+        6.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            9,
+            12,
+            10
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank4",
+      "from": [
+        3.88137,
+        0.8,
+        10.13137
+      ],
+      "to": [
+        11.88137,
+        0.8,
+        12.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            9,
+            12,
+            10
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank5",
+      "from": [
+        0.88137,
+        0.8,
+        13.13137
+      ],
+      "to": [
+        14.88137,
+        0.8,
+        15.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            5,
+            12,
+            6,
+            4
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank6",
+      "from": [
+        0.88137,
+        0.8,
+        1.13137
+      ],
+      "to": [
+        14.88137,
+        0.8,
+        3.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            5,
+            12,
+            6,
+            4
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank7",
+      "from": [
+        0.88137,
+        0.8,
+        3.13137
+      ],
+      "to": [
+        2.88137,
+        0.8,
+        13.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            4,
+            9,
+            12,
+            10
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Plank8",
+      "from": [
+        12.88137,
+        0.8,
+        3.13137
+      ],
+      "to": [
+        14.88137,
+        0.8,
+        13.13137
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.25,
+          0.95,
+          8.13137
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "east": {
+          "uv": [
+            5,
+            4,
+            6,
+            12
+          ],
+          "rotation": 180,
+          "texture": "#rail_junction_texture"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "rotation": 270,
+          "texture": "#rail_normal"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ],
+          "texture": "#rail_normal"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            11,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_junction_texture"
+        },
+        "down": {
+          "uv": [
+            12,
+            9,
+            4,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#rail_normal",
+          "cullface": "down"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "gui": {
+      "rotation": [
+        86,
+        0,
+        0
+      ],
+      "scale": [
+        0.825,
+        0.825,
+        0.825
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        268,
+        0,
+        0
+      ],
+      "translation": [
+        -2,
+        -2,
+        -8
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}
