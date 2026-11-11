@@ -1,3 +1,4 @@
 {
-  "parent": "railplus:block/four_way_rail"
+  "parent": "railplus:block/four_way_rail",
+  "gui_light": "front"
 }

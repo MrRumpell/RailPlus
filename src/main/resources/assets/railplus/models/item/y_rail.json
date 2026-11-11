@@ -1,3 +1,4 @@
 {
-  "parent": "railplus:block/y_rail_north_unpowered"
+  "parent": "railplus:block/y_rail_north_unpowered",
+  "gui_light": "front"
 }

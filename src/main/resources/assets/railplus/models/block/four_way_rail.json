@@ -66,17 +66,6 @@
             7
           ],
           "texture": "#rail_normal"
-        },
-        "down": {
-          "uv": [
-            12,
-            5,
-            4,
-            7
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -140,17 +129,6 @@
             11
           ],
           "texture": "#rail_normal"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -208,15 +186,6 @@
           "texture": "#rail_normal"
         },
         "up": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
-        },
-        "down": {
           "uv": [
             2,
             0,
@@ -288,15 +257,6 @@
             16
           ],
           "texture": "#rail_normal"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -354,15 +314,6 @@
           "texture": "#rail_normal"
         },
         "up": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
-        },
-        "down": {
           "uv": [
             2,
             0,
@@ -434,15 +385,6 @@
             16
           ],
           "texture": "#rail_normal"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -506,15 +448,6 @@
             16
           ],
           "texture": "#rail_normal"
-        },
-        "down": {
-          "uv": [
-            12,
-            10,
-            14,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -571,15 +504,6 @@
           "texture": "#rail_normal"
         },
         "up": {
-          "uv": [
-            12,
-            10,
-            14,
-            16
-          ],
-          "texture": "#rail_normal"
-        },
-        "down": {
           "uv": [
             12,
             10,
@@ -651,15 +575,6 @@
             4
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -724,15 +639,6 @@
             4
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -797,15 +703,6 @@
             14
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -870,15 +767,6 @@
             4
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -943,15 +831,6 @@
             14
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -1016,15 +895,6 @@
             14
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            2,
-            0,
-            4,
-            16
-          ],
-          "texture": "#rail_normal"
         }
       }
     },
@@ -1088,17 +958,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -1162,17 +1021,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -1236,17 +1084,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -1310,17 +1147,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -1384,17 +1210,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     },
@@ -1458,17 +1273,6 @@
             11
           ],
           "texture": "#rail_junction_texture"
-        },
-        "down": {
-          "uv": [
-            12,
-            9,
-            4,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#rail_normal",
-          "cullface": "down"
         }
       }
     }
